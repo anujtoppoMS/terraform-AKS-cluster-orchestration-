@@ -8,6 +8,12 @@ terraform {
   }
 
   required_version = ">= 1.1.0"
+  cloud {
+    organization = "anujtoppo_terraform_state"
+    workspaces {
+      name = "Dev"
+    }
+  }
 }
 
 provider "azurerm" {
