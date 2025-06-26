@@ -22,6 +22,6 @@ variable "rg_name" {
 #   type = string
 # }
 variable "subscription_id" {
-  type = string
+  type    = string
   default = "6c5ab08a-38e2-49b5-a0f0-b7c78bbbea6d"
 }
