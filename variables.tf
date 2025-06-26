@@ -4,11 +4,11 @@ variable "location" {
 }
 
 variable "cluster_name" {
-  default = "aks-k8s"
+  default = "aks-k8s-test"
 }
 
 variable "rg_name" {
-  default = "aks-rg"
+  default = "aks-rg-test"
   type    = string
 }
 
